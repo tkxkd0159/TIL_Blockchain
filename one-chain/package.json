@@ -1,0 +1,12 @@
+{
+  "name": "one-chain",
+  "version": "1.0.0",
+  "description": "(1) Check CPU architecture\r ```Shell\r $ echo %PROCESSOR_ARCHITECTURE%\r ```\r (2) Download and Install the suitable `curl` for CPU architecture\r ```\r $ curl --version\r ```\r (3) Clone `onechain` repository\r (4) Install `dependencies` in `onechain` repository\r ```Shell\r cd onechian\r npm install\r ```\r (5) Start node\r ```\r npm start\r ```\r (6) Check one-chain version and Terminate node\r ```\r curl http://127.0.0.1:3001/version\r curl -X POST http://127.0.0.1:3001/stop\r ```",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node main.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
