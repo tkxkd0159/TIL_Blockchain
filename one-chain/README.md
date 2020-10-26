@@ -23,3 +23,13 @@ npm start
 curl http://127.0.0.1:3001/version
 curl -X POST http://127.0.0.1:3001/stop
 ```
+
+(7) test
+```
+curl http://localhost:3001/blocks | python -m json.tool  // GET ledger
+
+curl -H "Content-type:application/json" --data "{\"data\" : [\"Add block\", \"POST data\"]}" http://localhost:3001/mineBlock
+
+curl -X POST http://127.0.0.1:3001/mineBlock
+
+```
