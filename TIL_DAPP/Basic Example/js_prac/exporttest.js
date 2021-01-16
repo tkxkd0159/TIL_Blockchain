@@ -6,5 +6,5 @@ let calVol = (a, b, c) => {
   };
 
 
-  export default{calVol};
+  export default calVol;
   export {PI,defalutConst};
