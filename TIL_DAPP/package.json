@@ -1,0 +1,28 @@
+{
+  "name": "til_dapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkxkd0159/TIL_DAPP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tkxkd0159/TIL_DAPP/issues"
+  },
+  "homepage": "https://github.com/tkxkd0159/TIL_DAPP#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.2.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-plugin-vue": "^7.1.0"
+  },
+  "type": "module"
+}
