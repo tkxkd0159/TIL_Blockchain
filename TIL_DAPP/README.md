@@ -6,7 +6,7 @@
 ![](https://img.shields.io/badge/Node.js-10.8.0-green)
 ![](https://img.shields.io/badge/Vue.js-2.5.21-green)
 
-## Block and Transaction Properties
+## Solidity special variables (global)
 ![tx_properties](./img/Special_Variables.PNG)
 
 <br>
