@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 
-pragma solidity ^0.6.0;
+pragma solidity ^0.8.0;
 
-import "myERC721.sol";
+import "MyERC721.sol";
 
 contract WebSiteToken is MyERC721 {
 
